@@ -1,0 +1,11 @@
+{
+    "title": "Sum",
+    "description": "Write a function that adds two numbers",
+    "template": "function sum(a, b) {\n  // write your code here\n}",
+    "testCases": [
+        {
+            "description": "it should sum",
+            "verification": "sum(2,3) === 5"
+        }
+    ]
+}

@@ -1,14 +1,17 @@
 {
-  "name": "sparkdigital-js-training",
+  "name": "training-sandbox",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-monaco-editor": "^0.26.2",
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-app-rewired start --scripts-version react-scripts",
+    "orig-start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -27,5 +30,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "monaco-editor-webpack-plugin": "^1.7.0",
+    "react-app-rewired": "^2.1.3"
   }
 }
